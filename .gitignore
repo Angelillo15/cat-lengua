@@ -1,0 +1,11 @@
+# firefox download directory
+firefox
+
+# firefox compressed
+firefox.tar.bz2
+
+#vscode folder
+.vscode
+
+# intel ij folder
+.idea
