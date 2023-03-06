@@ -9,7 +9,7 @@ else
 	echo "$DIR is not downloaded."
     echo downloading firefox
     # download firefox from its official cdn
-    curl https://download-installer.cdn.mozilla.net/pub/firefox/releases/$VERSION -k -o firefox.tar.bz2
+    wget https://download-installer.cdn.mozilla.net/pub/firefox/releases/$VERSION -k -o firefox.tar.bz2
     # unzip firefox.tar.bz2 to firefox directory
     tar -xvf firefox.tar.bz2
     # remove firefox.tar.bz2
