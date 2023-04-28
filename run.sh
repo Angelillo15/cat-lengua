@@ -20,7 +20,7 @@ fi
 echo granting execution permissions to firefox
 chmod +x firefox/firefox
 echo running firefox with the following link $(cat link.txt)
-./firefox/firefox $LINK
+./firefox/firefox
 
 read -p "Do you want to delete the local instance of firefox [N/y] " choice
 
